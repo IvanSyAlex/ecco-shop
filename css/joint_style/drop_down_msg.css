@@ -1,0 +1,63 @@
+.dropdown-msg__hover{
+    position: relative;
+    display: inline-block;
+}
+.dropdownmsgs__link{
+    font-size: 13px;
+    color: #FF3D00;
+    text-decoration: underline;
+}
+.triangle{
+    position: absolute;
+    top:-1000px;
+    right: 40px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid whitesmoke;
+}
+.dropdown-msg__hover:hover .triangle{
+    top: -20px;
+}
+.dropdown-msg__chart{
+    position: absolute;
+    background: whitesmoke;
+    text-align: center;
+    top: -60px;
+    width: 160px;
+    height: 0;
+    font-size: 15px;
+    border-radius: 5px;
+    opacity: 0;
+    left: -9999px;
+}  
+.dropdown-msg__chart:before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -10px;
+    width: 200px;
+    height: 30px;
+}
+.dropdown-msg__hover:hover .dropdown-msg__chart{
+    display: block;
+    height: 40px;
+    margin-top: 10px;
+    top: 100%;
+    padding: 10px;
+    font-size: 15px;
+    opacity: 1;
+    left: -65px;
+    transition: opacity 0.9s; 
+}
+.dropdown-msg__chart h4{
+    font-weight: bold;
+    font-size: 15px;
+    color:black;
+    margin-top: -1000px;
+}   
+.dropdown-msg__hover:hover h4 {
+    margin-top: 0;
+}
+.dropdown-msg__chart p{
+    font-size: 15px;
+    color:black;
+}   

@@ -1,0 +1,6 @@
+.services__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 251px;
+    /* margin-left: 15px; */
+}

@@ -1,0 +1,11 @@
+.contacts-footer{
+    padding-left: 75px;
+    text-align: right;
+}
+.contacts-footer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+}

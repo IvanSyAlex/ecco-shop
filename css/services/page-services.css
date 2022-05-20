@@ -1,0 +1,34 @@
+.page-services{
+    background: white;
+    color: black;
+    padding-top: 94px;
+}
+.page-services__wrap{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+}
+.page-services__btn:hover{
+    background: rgba(174, 208, 238, 0.4);
+    color: black;
+}
+
+/* paginations */
+.paginations.page-services--paginations--position{
+    align-self:center;
+}
+.paginations__wrapper.page-services--paginations--position{
+    margin-top: 35px;
+    margin-bottom: 76px;
+}
+.page-services--paginations--text{
+    font-weight: bold;
+    font-size: 16px;
+}
+.page-services--paginations--active{
+    font-weight: bold;
+    font-size: 16px;
+}

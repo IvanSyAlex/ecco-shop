@@ -1,0 +1,40 @@
+@import url("./css/joint_style/normalize.css");
+@import url("./css/joint_style/base.css");
+
+/* joint style */
+@import url("./css/joint_style/menu.css");
+@import url("./css/joint_style/drop_down_msg.css");
+@import url("./css/joint_style/breadcrumb.css");
+@import url("./css/joint_style/inner.css");
+@import url("./css/joint_style/button.css");
+@import url("./css/joint_style/paginations.css");
+
+/* index */
+@import url("./css/index/heading.css");
+@import url("./css/index/logo.css");
+@import url("./css/index/contacts.css");
+
+@import url("./css/index/content-title.css");
+@import url("./css/index/services.css");
+@import url("./css/index/block.css");
+@import url("./css/index/parent.css");
+@import url("./css/index/news.css");
+@import url("./css/index/about.css");
+@import url("./css/index/footer.css");
+@import url("./css/index/social_media.css");
+@import url("./css/index/contacts_footer.css");
+
+/* services */
+@import url("./css/services/top-line__container.css");
+@import url("./css/services/page-services.css");
+@import url("./css/services/product.css");
+
+/* reviews */
+@import url("./css/reviews/reviews.css");
+@import url("./css/reviews/page_content.css");
+@import url("./css/reviews/separator.css");
+@import url("./css/reviews/inner_reviews.css");
+@import url("./css/reviews/form.css");
+
+/* start_page */
+@import url("./css/start_page/start_page.css");

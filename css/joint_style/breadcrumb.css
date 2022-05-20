@@ -1,0 +1,19 @@
+.breadcrumb__list{
+    display: flex;
+    padding-bottom: 30px;
+}
+.breadcrumb__items a{
+    color: orange;
+    text-decoration:underline; 
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+.breadcrumb__items::after{
+    content: " / ";
+    color: #9a9a9a;
+    text-decoration: none;
+}
+.breadcrumb__items--active a{
+    color: #9a9a9a;
+}

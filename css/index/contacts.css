@@ -1,0 +1,12 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    }
+    .contacts__phone{
+        font-size: 26px;
+    }
+    
+    .contacts.heading--spacing-contacts-left{
+        margin-left: 244px ;
+    }

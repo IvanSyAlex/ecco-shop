@@ -1,0 +1,17 @@
+.button{
+    margin-top: 31px;
+    margin-bottom: 53px;
+    border: 1px solid;
+    border-radius: 35px;
+    padding: 18px 47px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.button:hover{
+    background: #FF3D00;
+    box-shadow: 0 0 4px #FF3D00 ;
+    transition: 0.4s;
+}

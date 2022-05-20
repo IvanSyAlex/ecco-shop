@@ -1,0 +1,15 @@
+.footer{
+    margin-top: auto;
+}
+.footer-wrepper{
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+    align-content: stretch;
+    height: 93px;
+    padding-top: 25px;
+}
+.footer--inegx-page--position--top{
+    margin-top: 46px; 
+    border-top: 1px solid #9A9A9A;
+}

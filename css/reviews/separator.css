@@ -1,0 +1,17 @@
+.separator{
+    background: #373737 url(/images/decor/party.png) right 328px top -134px  no-repeat;
+    min-height: 363px;
+    display: flex;
+    align-items: center;
+}
+.separator h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    max-width: 553px;
+    line-height: 65px;
+    margin-left: 390px;
+}
+.separator span{
+    color:  #FF5300;
+}

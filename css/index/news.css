@@ -1,0 +1,43 @@
+.news{
+    border-radius: 5px;
+    min-height: 394px;
+    min-width: 555px;
+    display: flex;
+    width: calc(100% / 2 - 4%);
+    margin-right: 3%;
+}
+.news--image-camera-jpg{
+    background: url("/images/content/news/camera.jpg") no-repeat;
+    /* background-size: 100% 100%; растягивает изображение фона по блоку */
+}
+.news--image-wedding-jpg{
+    background: url("/images/content/news/wedding.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.news__info{
+    display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    align-content: stretch;
+    margin-left: 28px;
+}
+.news__date{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 246px;
+}
+.news__proposal{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 12.5px;
+}
+.news__description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 4px;
+}

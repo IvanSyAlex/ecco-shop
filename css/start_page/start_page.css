@@ -1,0 +1,63 @@
+@keyframes startAnimationTurnLogo{
+    from{
+        opacity: 10%;
+        transform:  scale(0.1) rotate(30deg);
+        transform-origin: center bottom;
+    }
+    60%{
+        transform: rotate(-10deg);
+    }
+    80%{
+        transform: rotate(3deg);
+    }
+    to{
+        transform: rotate(0) scale(1);
+        opacity: 100%;
+    }
+}
+.start-page{
+    min-height: 100%;
+}
+.start-page__rec{
+    margin-top: 149px;
+    width: 1128px;
+    height: 643px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.start-page__rec img{
+    width: 486px;
+    height: 117px;
+    margin-top: 50px;
+    margin-bottom: 29px;
+}
+.start-page__animation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0%;
+}
+  .start-page__rec:hover .start-page__animation{
+    animation: startAnimationTurnLogo 0.8s;
+    animation-delay: 0.5s;
+    animation-fill-mode:forwards
+}
+.start-page__button{
+    background: #FF5500;
+    border-radius: 35px;
+    padding: 18px 50px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.start-page__button:hover{
+    background: #FF3D00;
+    transition: 0.4s;
+    box-shadow: 0 0 8px #FF3D00;
+}

@@ -1,0 +1,15 @@
+.top-line{
+    display: flex;
+    height: 416px;
+}
+.top-line__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.top-line h2{
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 80px;
+}
